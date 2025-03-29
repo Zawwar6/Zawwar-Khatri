@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-24 bg-gradient-to-br from-black via-gray-900 to-black text-white"
+      className="min-h-screen overflow-y-hidden flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-24 bg-gradient-to-br from-black via-gray-900 to-black text-white"
     >
       <div className="max-w-4xl md:max-w-5xl lg:max-w-6xl w-full text-center space-y-6 sm:space-y-8">
         
@@ -15,7 +15,7 @@ const Home = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-sm sm:text-lg md:text-xl text-yellow-400"
+          className="text-sm sm:text- md:text-xl text-yellow-400"
         >
           Hi, my name is
         </motion.h2>
